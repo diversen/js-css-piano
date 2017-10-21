@@ -1,5 +1,3 @@
-var keyboardTones = require('keyboard-tones')
-
 function piano(elemID, opts) {
 
     this.elemID = elemID
