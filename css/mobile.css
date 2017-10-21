@@ -1,0 +1,51 @@
+#piano-container {
+    margin: 0;
+    background: grey;
+    position: relative;
+    max-width: 100vw;
+}
+
+.piano>li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.piano>.white {
+    height: 12em;
+    width: 12%;
+    z-index: 1;
+    border: 1px solid #bbb;
+    background: white;
+}
+
+.piano>.white:active {
+    border: 1px solid grey;
+    background: grey;
+}
+
+.piano>.black {
+    height: 8em;
+    width: 9%;
+    margin: 0 0 0 -4.5%;
+    z-index: 2;
+    border: 1px solid #000;
+    background: black;
+}
+
+.piano>.black:active {
+    background: grey;
+    border: 1px solid grey;
+}
+
+.piano>.b,
+.piano>.e,
+.piano>.g,
+.piano>.d,
+
+.piano>.a {
+    margin: 0 0 0 -4.5%;
+}

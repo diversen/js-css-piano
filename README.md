@@ -19,7 +19,7 @@ var p = new piano(elemID, {
 p.createPiano();
 ~~~
 
-Remember to include the [piano.css](piano.css)
+Remember to include the [css/piano.css](css/piano.css)
 
 You can also see [index.html](index.html) which includes the bundle built from [test.js](test.js)
 

@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var elemID = 'piano-container';
     var p = new piano(elemID, {
-        octaves: 2,
+        octaves: 1,
         octaveBegin: 3
     });
     
