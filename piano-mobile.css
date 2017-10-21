@@ -2,8 +2,9 @@
     margin: 0;
     background: grey;
     position: relative;
-    max-width: 90%;
-    
+    max-width: 100%;
+    border: 0;
+    padding: 0;
 }
 
 .piano>li {
@@ -16,8 +17,8 @@
 }
 
 .piano>.white {
-    height: 12em;
-    width: 3em;
+    height: 100%;
+    width: 7%;
     z-index: 1;
     border: 1px solid #bbb;
     background: white;
