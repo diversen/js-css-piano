@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diversen/simple-js-piano.git"
+    "url": "git+https://github.com/diversen/js-css-piano.git"
   },
   "keywords": [
     "piano",
@@ -18,9 +18,9 @@
   "author": "dennis iversen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diversen/simple-js-piano/issues"
+    "url": "https://github.com/diversen/js-css-piano/issues"
   },
-  "homepage": "https://github.com/diversen/simple-js-piano#readme",
+  "homepage": "https://github.com/diversen/js-css-piano#readme",
   "dependencies": {
     "keyboard-tones": "^1.0.3"
   }
