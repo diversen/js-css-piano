@@ -1,0 +1,27 @@
+{
+  "name": "js-css-piano",
+  "version": "1.0.0",
+  "description": "A simple piano keyboard built with js and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/simple-js-piano.git"
+  },
+  "keywords": [
+    "piano",
+    "webaudio",
+    "keyboard"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/simple-js-piano/issues"
+  },
+  "homepage": "https://github.com/diversen/simple-js-piano#readme",
+  "dependencies": {
+    "keyboard-tones": "^1.0.3"
+  }
+}
