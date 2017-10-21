@@ -16,7 +16,6 @@ function piano(elemID, opts) {
     this.createPiano = function () {
         let html = this.getPianoHTML()
         this.elem.innerHTML = html
-        this.setEvents();
     }
 
     this.getPianoHTML = function () {
