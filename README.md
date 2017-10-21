@@ -23,6 +23,10 @@ Remember to include the [piano.css](piano.css)
 
 You can also see [index.html](index.html) which includes the bundle built from [test.js](test.js)
 
+You can see this example here: 
+
+[https://diversen.github.io/js-css-piano/](https://diversen.github.io/js-css-piano/)
+
 ## Build and watch example
 
     ./watch
