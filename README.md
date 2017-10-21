@@ -11,7 +11,11 @@ Very small module for drawing a piano using js and css
 ~~~js
 var p = require('js-css-piano');
 var elemID = 'piano-container';
-var p = new piano(elemID);
+
+var p = new piano(elemID, {
+        octaves: 2,
+        octaveBegin: 3
+});
 p.createPiano();
 ~~~
 
