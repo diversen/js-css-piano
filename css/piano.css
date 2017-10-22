@@ -22,10 +22,6 @@
     background: white;
 }
 
-.piano> .active {
-    border: 1px solid grey;
-    background: grey;
-}
 
 .piano>.black {
     height: 8em;
@@ -35,6 +31,12 @@
     border: 1px solid #000;
     background: black;
 }
+
+.piano> .active {
+    border: 1px solid grey;
+    background: grey;
+}
+
 
 /*
 .piano>.black:active {
