@@ -36,16 +36,16 @@ function piano(elemID, opts) {
         let octaveHTML = 
         `
             <li class="white c" data-note="${this.getNoteAndOctave('c', octave)}"></li>
-            <li class="black cs" data-note="${this.getNoteAndOctave('c#', octave)}"></li>
+            <li class="black cs" data-note="${this.getNoteAndOctave('cs', octave)}"></li>
             <li class="white d" data-note="${this.getNoteAndOctave('d', octave)}"></li>
-            <li class="black ds" data-note="${this.getNoteAndOctave('d#', octave)}"></li>
+            <li class="black ds" data-note="${this.getNoteAndOctave('ds', octave)}"></li>
             <li class="white e" data-note="${this.getNoteAndOctave('e', octave)}"></li>
             <li class="white f" data-note="${this.getNoteAndOctave('f', octave)}"></li>
-            <li class="black fs" data-note="${this.getNoteAndOctave('f#', octave)}"></li>
+            <li class="black fs" data-note="${this.getNoteAndOctave('fs', octave)}"></li>
             <li class="white g" data-note="${this.getNoteAndOctave('g', octave)}"></li>
-            <li class="black gs" data-note="${this.getNoteAndOctave('g#', octave)}"></li>
+            <li class="black gs" data-note="${this.getNoteAndOctave('gs', octave)}"></li>
             <li class="white a" data-note="${this.getNoteAndOctave('a', octave)}"></li>
-            <li class="black as" data-note="${this.getNoteAndOctave('a#', octave)}"></li>
+            <li class="black as" data-note="${this.getNoteAndOctave('as', octave)}"></li>
             <li class="white b" data-note="${this.getNoteAndOctave('b', octave)}"></li>`
             
         return octaveHTML

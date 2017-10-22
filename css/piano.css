@@ -22,7 +22,7 @@
     background: white;
 }
 
-.piano>.white:active {
+.piano> .active {
     border: 1px solid grey;
     background: grey;
 }
@@ -36,10 +36,11 @@
     background: black;
 }
 
+/*
 .piano>.black:active {
     background: grey;
     border: 1px solid grey;
-}
+}*/
 
 .piano>.b,
 .piano>.e,
