@@ -18,11 +18,11 @@ function piano(elemID, opts) {
 
     this.getPianoHTML = function () {
         
+        let octaveBegin = this.options.octaveBegin
         let html = `<ul class="piano">`
-        for (i = 1; i <= this.options.octaves; i++) {
-            let currentOctave = this.options.octaveBegin    
-            html += this.getTones(currentOctave)
-            this.options.octaveBegin++ 
+        for (i = 1; i <= this.options.octaves; i++) {  
+            html += this.getTones(octaveBegin)
+            octaveBegin++ 
         }
         html += `</ul>`
         return html
