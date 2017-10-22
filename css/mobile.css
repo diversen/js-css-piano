@@ -20,12 +20,6 @@
     background: white;
 }
 
-/*
-.piano>.white:active {
-    border: 1px solid grey;
-    background: grey;
-}*/
-
 .piano>.black {
     height: 8em;
     width: 9%;
