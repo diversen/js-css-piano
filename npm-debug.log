@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/dennis/js-css-piano',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/dennis/.npm/js-css-piano/1.0.6/package.tgz not in flight; packing
+9 verbose correctMkdir /home/dennis/.npm correctMkdir not in flight; initializing
+10 info lifecycle js-css-piano@1.0.6~prepublish: js-css-piano@1.0.6
+11 silly lifecycle js-css-piano@1.0.6~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/dennis/.npm/js-css-piano/1.0.6/package.tgz',
+12 verbose tar pack   '/home/dennis/js-css-piano' ]
+13 verbose tarball /home/dennis/.npm/js-css-piano/1.0.6/package.tgz
+14 verbose folder /home/dennis/js-css-piano
+15 verbose addLocalTarball adding from inside cache /home/dennis/.npm/js-css-piano/1.0.6/package.tgz
+16 verbose correctMkdir /home/dennis/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd js-css-piano@1.0.6
+18 verbose afterAdd /home/dennis/.npm/js-css-piano/1.0.6/package/package.json not in flight; writing
+19 verbose correctMkdir /home/dennis/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/dennis/.npm/js-css-piano/1.0.6/package/package.json written
+21 silly publish { name: 'js-css-piano',
+21 silly publish   version: '1.0.6',
+21 silly publish   description: 'A simple piano keyboard built with js and css',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'test.js' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/diversen/js-css-piano.git' },
+21 silly publish   keywords: [ 'piano', 'webaudio', 'keyboard' ],
+21 silly publish   author: { name: 'dennis iversen' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/diversen/js-css-piano/issues' },
+21 silly publish   homepage: 'https://github.com/diversen/js-css-piano#readme',
+21 silly publish   dependencies: {},
+21 silly publish   readme: '# js-css-piano\n\nVery small module for drawing a piano using js and css\n\n## Install: \n\n    npm install --save js-css-piano\n\n## Usage\n\n~~~js\nvar p = require(\'js-css-piano\');\nvar elemID = \'piano-container\';\n\nvar p = new piano(elemID, {\n        octaves: 2,\n        octaveBegin: 3\n});\np.createPiano();\n~~~\n\nRemember to include the [css/piano.css](css/piano.css)\n\nYou can also see [index.html](index.html) which includes the bundle built from [test.js](test.js)\n\nYou can see this example here: \n\n[https://diversen.github.io/js-css-piano/](https://diversen.github.io/js-css-piano/)\n\n## Build and watch example\n\n    ./watch\n\n## Inspiration\n\n[https://codepen.io/zastrow/details/oDBki](https://codepen.io/zastrow/details/oDBki)\n\n## License\n\nMIT © [Dennis Iversen](https://github.com/diversen)',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '2fb19579de7ad212286d0c1312fd6e167618be8b',
+21 silly publish   _id: 'js-css-piano@1.0.6',
+21 silly publish   _shasum: 'd8869cfccc67bf0065988359547cd9970d8e7735',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name js-css-piano
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'js-css-piano',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'js-css-piano',
+26 silly mapToRegistry   name: 'js-css-piano',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/js-css-piano
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/dennis/.npm/js-css-piano/1.0.6/package.tgz
+30 verbose request uri https://registry.npmjs.org/js-css-piano
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 6:02:17 PM
+33 verbose request using bearer token for auth
+34 verbose request id 929aaccc770e3a7a
+35 http request PUT https://registry.npmjs.org/js-css-piano
+36 http 403 https://registry.npmjs.org/js-css-piano
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '91',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 23 Oct 2017 16:02:19 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-hhn1525-HHN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1508774538.188952,VS0,VE1183',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /home/dennis/.npm/registry.npmjs.org/js-css-piano on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published version 1.0.6. : js-css-piano
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid js-css-piano
+43 verbose cwd /home/dennis/js-css-piano
+44 error Linux 4.4.0-97-generic
+45 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error node v6.11.4
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published version 1.0.6. : js-css-piano
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

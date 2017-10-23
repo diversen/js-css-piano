@@ -1,6 +1,6 @@
 {
   "name": "js-css-piano",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple piano keyboard built with js and css",
   "main": "index.js",
   "scripts": {
